@@ -1,11 +1,12 @@
 <!doctype html>
 <html>
 <head>
+  <title>Positivus</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
   <link href="./output.css" rel="stylesheet">
   <script src="cdn.js"></script>
 </head>
@@ -44,7 +45,7 @@
       </div>
     </section>
 
-    <section class="lg:max-w-[70em] mx-auto px-12">
+    <section class="lg:max-w-[70em] mx-auto px-16">
         <div class="lg:flex lg:justify-around lg:items-center grid grid-cols-3 gap-8 justify-items-center">
             <img src="assets/icons/amazon.svg" alt="" class="grayscale">
             <img src="assets/icons/dribble.svg" alt="" class="grayscale">
@@ -55,95 +56,98 @@
         </div>
     </section>
 
-    <section class="lg:max-w-[70em] mx-auto p-12">
-        <div class="lg:flex text-center gap-8 items-center">
+    <section class="lg:max-w-[70em] mx-auto px-12 py-5">
+        <div class="lg:flex text-center gap-8 items-center p-5">
             <h1 class=" inline text-2xl bg-[#B9FF66] p-2 rounded-md font-semibold">Services</h1>
-            <p class="mt-4">
+            <p class="">
                 At our digital marketing agency, we offer a range of services to <br> help businesses grow and succeed online.
                 These services include:
             </p>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 my-12 justify-items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 my-12 place-items-center">
 
-          <div class="sm:flex sm:gap-16 items-center bg-[#F3F3F3] rounded-[2em] shadow-lg p-10 border-b-black border-b-4 border border-black max-w-[30em]">
+          <div class=" bg-[#F3F3F3] rounded-[2em] shadow-lg p-10 border-b-black border-b-4 border border-black sm:w-[30em] max-w-[30em]">
             <div>
-                <p class="bg-[#B9FF66] rounded-lg font-bold text-xl">Search engine</p>
+                <p class="bg-[#B9FF66] rounded-lg font-bold text-xl inline">Search engine</p>
                 <p><span class="bg-[#b9ff66] rounded-lg font-bold text-xl leading-3">optimization</span></p>
-                <button class="flex gap-2 items-center sm:mt-20 mt-0">
-                    <img src="assets/icons/learn_more.svg" alt="" class="w-8">
+                <img src="assets/images/saerchengine.svg" alt="" class="w-[10em] float-end ">
+                <button class="flex gap-2 items-center mt-28">
+                    <img src="assets/icons/learn_more.svg" alt="" class="w-5">
                    <p class="hidden sm:block"> Learn more</p>
                 </button>
             </div>
-            <img src="assets/images/saerchengine.svg" alt="" class="w-[10em]">
-          </div>
+         </div>
 
-          <div class="sm:flex sm:gap-16 items-center bg-[#B9FF66] rounded-[2em] shadow-lg p-10 border-b-4 border-b-black border border-black max-w-[30em]">
+          <div class="bg-[#B9FF66] rounded-[2em] shadow-lg p-10 border-b-4 border-b-black border border-black sm:w-[30em] max-w-[30em]">
             <div>
                 <p class="inline bg-[#F3F3F3] rounded-lg font-bold text-xl">Pay-per-click</p>
                 <p><span class="bg-[#F3F3F3] rounded-lg font-bold text-xl leading-3">advertising</span></p>
-                <button class="flex gap-2 items-center sm:mt-20 mt-0">
-                    <img src="assets/icons/learn_more.svg" alt="" class="w-8">
+                <img src="assets/images/apy.svg" alt="" class="w-[10em] float-end">
+                <button class="flex gap-2 items-center mt-28">
+                    <img src="assets/icons/learn_more.svg" alt="" class="w-5">
                     <p class="hidden sm:block">Learn more</p>
                 </button>
             </div>
-            <img src="assets/images/apy.svg" alt="" class="w-[10em]">
           </div>
 
-          <div class="sm:flex sm:gap-16 items-center bg-[#191A23] rounded-[2em] shadow-lg p-10  max-w-[30em]">
+          <div class="bg-[#191A23] rounded-[2em] shadow-lg p-10 sm:w-[30em] max-w-[30em]">
             <div>
-                <p class="bg-[#FFFFFF] rounded-lg font-bold text-xl">Social Media</p>
-                <p><span class="bg-[#FFFFFF] rounded-lg font-bold text-xl leading-3 px-1">Marketing</span></p>
-                <button class="flex gap-2 items-center sm:mt-20 mt-0 text-white">
-                    <img src="assets/icons/learn_more1.svg" alt="" class="w-8">
+                <p class="inline bg-[#FFFFFF] rounded-lg font-bold text-xl">Social Media</p>
+                <p><span class="bg-[#FFFFFF] rounded-lg font-bold text-xl leading-3">Marketing</span></p>
+                <img src="assets/images/social.svg" alt="" class="w-[8em] float-end">
+                <button class="flex gap-2 items-center mt-28 text-white">
+                    <img src="assets/icons/learn_more1.svg" alt="" class="w-5">
                     <p class="hidden sm:block">Learn more</p>
                 </button>
             </div>
-            <img src="assets/images/social.svg" alt="" class="w-[10em]">
+            
           </div>
 
-          <div class="sm:flex sm:gap-16 items-center bg-[#F3F3F3] rounded-[2em] shadow-lg p-10 border-b-black border-b-4 border border-black max-w-[30em]">
+          <div class="bg-[#F3F3F3] rounded-[2em] shadow-lg p-10 border-b-black border-b-4 border border-black sm:w-[30em] max-w-[30em]">
             <div>
                 <p class="inline bg-[#B9FF66] rounded-lg font-bold text-xl">Email</p>
                 <p><span class="bg-[#b9ff66] rounded-lg font-bold text-xl leading-3">Marketing</span></p>
-                <button class="flex gap-2 items-center sm:mt-20 mt-0">
-                    <img src="assets/icons/learn_more.svg" alt="" class="w-8">
+                 <img src="assets/images/email.svg" alt="" class="w-[8em] float-end">
+                <button class="flex gap-2 items-center mt-28">
+                    <img src="assets/icons/learn_more.svg" alt="" class="w-5">
                    <p class="hidden sm:block"> Learn more</p>
                 </button>
             </div>
-            <img src="assets/images/email.svg" alt="" class="w-[10em]">
+           
           </div>
 
-          <div class="sm:flex sm:gap-16 items-center bg-[#B9FF66] rounded-[2em] shadow-lg p-10 border-b-4 border-b-black border border-black max-w-[30em]">
+          <div class="bg-[#B9FF66] rounded-[2em] shadow-lg p-10 border-b-4 border-b-black border border-black sm:w-[30em] max-w-[30em]">
             <div>
                 <p class="inline bg-[#F3F3F3] rounded-lg font-bold text-xl">Content</p>
                 <p><span class="bg-[#F3F3F3] rounded-lg font-bold text-xl leading-3">creation</span></p>
-                <button class="flex gap-2 items-center sm:mt-20 mt-0">
-                    <img src="assets/icons/learn_more.svg" alt="" class="w-8">
+                 <img src="assets/images/content_creation.svg" alt="" class="w-[9em] float-end">
+                <button class="flex gap-2 items-center mt-28">
+                    <img src="assets/icons/learn_more.svg" alt="" class="w-5">
                    <p class="hidden sm:block"> Learn more</p>
                 </button>
             </div>
-            <img src="assets/images/content_creation.svg" alt="" class="w-[10em]">
           </div>
 
-          <div class="sm:flex sm:gap-16 items-center bg-[#191A23] rounded-[2em] shadow-lg p-10  max-w-[30em]">
+          <div class="bg-[#191A23] rounded-[2em] shadow-lg p-10 sm:w-[30em] max-w-[30em]">
             <div>
-                <p class="bg-[#B9FF66] rounded-lg font-bold text-xl px-1">Analytics and</p>
+                <p class="inline bg-[#B9FF66] rounded-lg font-bold text-xl px-1">Analytics and</p>
                 <p><span class="bg-[#B9FF66] rounded-lg font-bold text-xl leading-3 px-1">Tracking</span></p>
-                <button class="flex gap-2 items-center sm:mt-20 mt-0 text-white">
-                    <img src="assets/icons/learn_more1.svg" alt="" class="w-8">
+                 <img src="assets/images/analytics.svg" alt="" class="w-[10em] float-end ">
+                <button class="flex gap-2 items-center text-white mt-28">
+                    <img src="assets/icons/learn_more1.svg" alt="" class="w-5">
                     <p class="hidden sm:block">Learn more</p>
                 </button>
             </div>
-            <img src="assets/images/analytics.svg" alt="" class="w-[10em]">
+           
           </div>
         </div>
     </section>
 
-    <section class="lg:max-w-[65em] mx-auto bg-[#F3F3F3] rounded-[2em] p-6">
-        <div class="lg:flex lg:justify-around lg:items-center space-y-5">
-            <div class="max-w-[25em] mx-auto space-y-6">
-                <h1 class="text-4xl font-bold">Let’s make things happen</h1>
+    <section class="max-w-[30em] md:max-w-[65em] mx-auto bg-[#F3F3F3] rounded-[2em] p-4">
+        <div class="md:flex md:items-center">
+            <div class="max-w-[25em] mx-auto space-y-6 text-center md:text-start">
+                <h1 class="text-2xl font-bold">Let’s make things happen</h1>
                 <p>
                     Contact us today to learn more about how our digital marketing services can 
                     help your business grow and succeed online.
@@ -152,8 +156,55 @@
                     Get your free proposal
                 </button>
             </div>
-            <img src="assets/images/Frame_19.svg" alt="" class="w-[20em] mx-auto">
+            <img src="assets/images/Frame_19.svg" alt="" class="w-[20em] mx-auto hidden md:block">
           </div>
     </section>
+
+    <section class="max-w-[70em] mx-auto">
+        <div class="lg:flex gap-8 items-center p-5">
+            <h1 class=" inline text-2xl bg-[#B9FF66] p-2 rounded-md font-semibold">Cases studies</h1>
+            <p class="">
+                Explore Real-Life Examples of Our Proven Digital Marketing <br> Success through Our Case Studies
+            </p>
+        </div>
+        
+        <div class="bg-[#191A23] flex justify-around items-center text-white">
+
+            <div>
+                <p>
+                    For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase 
+                    in website traffic and a 25% increase in sales.
+                </p>
+                <button class="flex items-center gap-2">
+                    Learn  more
+                    <img src="assets/icons/arrow_green.svg" alt="">                   
+                </button>
+            </div>
+            <img src="assets/images/line.svg" alt="">
+            <div>
+                <p>
+                    For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase 
+                    in website traffic and a 25% increase in sales.
+                </p>
+                <button class="flex items-center gap-2">
+                    Learn  more
+                    <img src="assets/icons/arrow_green.svg" alt="">                   
+                </button>
+            </div>
+            <img src="assets/images/line.svg" alt="">
+            <div>
+                <p>
+                    For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase 
+                    in website traffic and a 25% increase in sales.
+                </p>
+                <button class="flex items-center gap-2">
+                    Learn  more
+                    <img src="assets/icons/arrow_green.svg" alt="">                   
+                </button>
+            </div>
+        </div>
+
+    </section>
+
 </body>
 </html>
