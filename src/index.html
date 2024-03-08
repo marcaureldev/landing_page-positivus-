@@ -7,6 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
   <link href="./output.css" rel="stylesheet">
   <script src="cdn.js"></script>
 </head>
@@ -31,7 +33,7 @@
 
     <section class="lg:max-w-[70em] mx-auto">
       <div class="lg:flex lg:justify-around lg:items-center p-10 space-y-5">
-        <div class="max-w-[25em] mx-auto space-y-6">
+        <div class="max-w-[25em] mx-auto space-y-6 text-center lg:text-start">
             <h1 class="text-4xl font-bold">Navigating the digital landscape for success</h1>
             <p>
                 Our digital marketing agency helps businesses grow and succeed online through a range 
@@ -56,18 +58,20 @@
         </div>
     </section>
 
+     <!-- SECTION  SERVICES ---------------------------------------------------------------------------- -->
+
     <section class="lg:max-w-[70em] mx-auto px-12 py-5">
         <div class="lg:flex text-center gap-8 items-center p-5">
-            <h1 class=" inline text-2xl bg-[#B9FF66] p-2 rounded-md font-semibold">Services</h1>
-            <p class="">
+            <h1 class=" inline text-2xl bg-[#B9FF66] mb-8 sm:mb-0 rounded-md font-semibold">Services</h1>
+            <p class="mt-10 sm:mt-0">
                 At our digital marketing agency, we offer a range of services to <br> help businesses grow and succeed online.
                 These services include:
             </p>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 my-12 place-items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 my-12 place-items-center">
 
-          <div class=" bg-[#F3F3F3] rounded-[2em] shadow-lg p-10 border-b-black border-b-4 border border-black sm:w-[30em] max-w-[30em]">
+          <div class=" bg-[#F3F3F3] rounded-[2em] shadow-lg p-10 border-b-black border-b-4 border border-black sm:w-[30em]">
             <div>
                 <p class="bg-[#B9FF66] rounded-lg font-bold text-xl inline">Search engine</p>
                 <p><span class="bg-[#b9ff66] rounded-lg font-bold text-xl leading-3">optimization</span></p>
@@ -78,8 +82,7 @@
                 </button>
             </div>
          </div>
-
-          <div class="bg-[#B9FF66] rounded-[2em] shadow-lg p-10 border-b-4 border-b-black border border-black sm:w-[30em] max-w-[30em]">
+          <div class="bg-[#B9FF66] rounded-[2em] shadow-lg p-10 border-b-4 border-b-black border border-black sm:w-[30em]">
             <div>
                 <p class="inline bg-[#F3F3F3] rounded-lg font-bold text-xl">Pay-per-click</p>
                 <p><span class="bg-[#F3F3F3] rounded-lg font-bold text-xl leading-3">advertising</span></p>
@@ -90,34 +93,29 @@
                 </button>
             </div>
           </div>
-
-          <div class="bg-[#191A23] rounded-[2em] shadow-lg p-10 sm:w-[30em] max-w-[30em]">
+          <div class="bg-[#191A23] rounded-[2em] shadow-lg p-10 sm:w-[30em]">
             <div>
                 <p class="inline bg-[#FFFFFF] rounded-lg font-bold text-xl">Social Media</p>
                 <p><span class="bg-[#FFFFFF] rounded-lg font-bold text-xl leading-3">Marketing</span></p>
-                <img src="assets/images/social.svg" alt="" class="w-[8em] float-end">
+                <img src="assets/images/social.svg" alt="" class="w-[10em] float-end">
                 <button class="flex gap-2 items-center mt-28 text-white">
                     <img src="assets/icons/learn_more1.svg" alt="" class="w-5">
                     <p class="hidden sm:block">Learn more</p>
                 </button>
             </div>
-            
           </div>
-
-          <div class="bg-[#F3F3F3] rounded-[2em] shadow-lg p-10 border-b-black border-b-4 border border-black sm:w-[30em] max-w-[30em]">
+          <div class="bg-[#F3F3F3] rounded-[2em] shadow-lg p-10 border-b-black border-b-4 border border-black sm:w-[30em]">
             <div>
-                <p class="inline bg-[#B9FF66] rounded-lg font-bold text-xl">Email</p>
+                <p class="inline bg-[#B9FF66] rounded-lg font-bold text-xl ">Email</p>
                 <p><span class="bg-[#b9ff66] rounded-lg font-bold text-xl leading-3">Marketing</span></p>
-                 <img src="assets/images/email.svg" alt="" class="w-[8em] float-end">
+                 <img src="assets/images/email.svg" alt="" class="w-[10em] float-end">
                 <button class="flex gap-2 items-center mt-28">
                     <img src="assets/icons/learn_more.svg" alt="" class="w-5">
                    <p class="hidden sm:block"> Learn more</p>
                 </button>
             </div>
-           
           </div>
-
-          <div class="bg-[#B9FF66] rounded-[2em] shadow-lg p-10 border-b-4 border-b-black border border-black sm:w-[30em] max-w-[30em]">
+          <div class="bg-[#B9FF66] rounded-[2em] shadow-lg p-10 border-b-4 border-b-black border border-black sm:w-[30em]">
             <div>
                 <p class="inline bg-[#F3F3F3] rounded-lg font-bold text-xl">Content</p>
                 <p><span class="bg-[#F3F3F3] rounded-lg font-bold text-xl leading-3">creation</span></p>
@@ -128,8 +126,7 @@
                 </button>
             </div>
           </div>
-
-          <div class="bg-[#191A23] rounded-[2em] shadow-lg p-10 sm:w-[30em] max-w-[30em]">
+          <div class="bg-[#191A23] rounded-[2em] shadow-lg p-10 sm:w-[30em]">
             <div>
                 <p class="inline bg-[#B9FF66] rounded-lg font-bold text-xl px-1">Analytics and</p>
                 <p><span class="bg-[#B9FF66] rounded-lg font-bold text-xl leading-3 px-1">Tracking</span></p>
@@ -139,14 +136,15 @@
                     <p class="hidden sm:block">Learn more</p>
                 </button>
             </div>
-           
           </div>
         </div>
     </section>
 
-    <section class="max-w-[30em] md:max-w-[65em] mx-auto bg-[#F3F3F3] rounded-[2em] p-4">
+    <!-- SECTION  MAKE THINGS HAPPEN ---------------------------------------------------------------------------- -->
+
+    <section class="max-w-[30em] lg:max-w-[65em] mx-auto bg-[#F3F3F3] rounded-[2em] py-10 sm:py-5">
         <div class="md:flex md:items-center">
-            <div class="max-w-[25em] mx-auto space-y-6 text-center md:text-start">
+            <div class="max-w-[25em] mx-auto space-y-6 text-center lg:text-start">
                 <h1 class="text-2xl font-bold">Let’s make things happen</h1>
                 <p>
                     Contact us today to learn more about how our digital marketing services can 
@@ -156,20 +154,32 @@
                     Get your free proposal
                 </button>
             </div>
-            <img src="assets/images/Frame_19.svg" alt="" class="w-[20em] mx-auto hidden md:block">
+            <img src="assets/images/Frame_19.svg" alt="" class="w-[20em] mx-auto hidden lg:block">
           </div>
     </section>
 
-    <section class="max-w-[70em] mx-auto">
-        <div class="lg:flex gap-8 items-center p-5">
+     <!-- SECTION  CASES STUDIES ---------------------------------------------------------------------------- -->
+
+    <section class="max-w-[70em] mx-auto p-8">
+        <div class="lg:flex gap-8 items-center p-8 text-center lg:start">
             <h1 class=" inline text-2xl bg-[#B9FF66] p-2 rounded-md font-semibold">Cases studies</h1>
-            <p class="">
+            <p class="mt-10 lg:mt-0">
                 Explore Real-Life Examples of Our Proven Digital Marketing <br> Success through Our Case Studies
             </p>
         </div>
         
-        <div class="bg-[#191A23] flex justify-around items-center text-white">
-
+        <div class="bg-[#191A23] md:flex justify-around items-center text-white rounded-[2em] p-8 hidden">
+            <div class="">
+                <p>
+                    For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase 
+                    in website traffic and a 25% increase in sales.
+                </p>
+                <button class="flex items-center gap-2">
+                    Learn  more
+                    <img src="assets/icons/arrow_green.svg" alt="">                   
+                </button>
+            </div>
+            <img src="assets/images/line.svg" alt="" class="p-5">
             <div>
                 <p>
                     For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase 
@@ -180,18 +190,7 @@
                     <img src="assets/icons/arrow_green.svg" alt="">                   
                 </button>
             </div>
-            <img src="assets/images/line.svg" alt="">
-            <div>
-                <p>
-                    For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase 
-                    in website traffic and a 25% increase in sales.
-                </p>
-                <button class="flex items-center gap-2">
-                    Learn  more
-                    <img src="assets/icons/arrow_green.svg" alt="">                   
-                </button>
-            </div>
-            <img src="assets/images/line.svg" alt="">
+            <img src="assets/images/line.svg" alt="" class="p-5">
             <div>
                 <p>
                     For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase 
@@ -203,8 +202,161 @@
                 </button>
             </div>
         </div>
-
     </section>
 
+     <!-- SECTION  CASES STUDIES FOR MOBLILE---------------------------------------------------------------------------- -->
+
+    <section class="md:hidden max-w-[70em] mx-auto p-12 text-white autoplay">
+
+        <div class="bg-[#191A23] mx-5 p-5 rounded-[2em]">
+            <p>
+                For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase 
+                in website traffic and a 25% increase in sales.
+            </p>
+            <button class="flex items-center gap-2">
+                Learn  more
+                <img src="assets/icons/arrow_green.svg" alt="">                   
+            </button>
+        </div>
+        <div class="bg-[#191A23] mx-5 p-5 rounded-[2em]">
+            <p>
+                For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase 
+                in website traffic and a 25% increase in sales.
+            </p>
+            <button class="flex items-center gap-2">
+                Learn  more
+                <img src="assets/icons/arrow_green.svg" alt="">                   
+            </button>
+        </div>
+        <div class="bg-[#191A23] mx-5 p-5 rounded-[2em]">
+            <p>
+                For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase 
+                in website traffic and a 25% increase in sales.
+            </p>
+            <button class="flex items-center gap-2">
+                Learn  more
+                <img src="assets/icons/arrow_green.svg" alt="">                   
+            </button>
+        </div>
+   </section>
+
+   <!-- SECTION  OUR WORKING PROCESS---------------------------------------------------------------------------- -->
+
+   <section class="max-w-[70em] mx-auto p-10">
+        <div class="lg:flex gap-8 items-center p-8 text-center lg:text-start">
+            <h1 class=" inline text-2xl bg-[#B9FF66] p-2 rounded-md font-semibold">Our Working Process</h1>
+            <p class="mt-10 lg:mt-0">
+                Step-by-Step Guide to Achieving <br> Your Business Goals 
+            </p>
+        </div>
+
+        <div class="space-y-4">
+            <div class="px-8 bg-[#F3F3F3] rounded-[2em] shadow-lg p-5 border-b-black border-b-4 border border-black color">
+                <div class="flex justify-between items-center p-2">
+                    <h1 class="md:text-[30px] text-md font-bold">01 <span>Consultation</span></h1>
+                    <button id = "btn" class="w-10"><img src="assets/icons/plus_icon.svg" id="plus" alt=""></button>
+                </div>
+                <div class="py-4 hidden content">
+                    <hr class="p-2 border-black">
+                    <p>
+                        During the initial consultation, we will discuss your business goals and objectives, target audience, 
+                        and current marketing efforts. This will allow us to understand your needs and tailor our services to 
+                        best fit your requirements.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="px-8 bg-[#F3F3F3] rounded-[2em] shadow-lg p-5 border-b-black border-b-4 border border-black color1">
+                <div class="flex justify-between items-center p-2">
+                    <h1 class="md:text-[30px] text-md font-bold">02 <span>Research and Strategy Development</span></h1>
+                    <button id = "btn1" class="w-10"><img src="assets/icons/plus_icon.svg" id="plus1" alt=""></button>
+                </div>
+                <div class="py-4 hidden content1">
+                    <hr class="p-2 border-black">
+                    <p>
+                        During the initial consultation, we will discuss your business goals and objectives, target audience, 
+                        and current marketing efforts. This will allow us to understand your needs and tailor our services to 
+                        best fit your requirements.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="px-8 bg-[#F3F3F3] rounded-[2em] shadow-lg p-5 border-b-black border-b-4 border border-black color2">
+                <div class="flex justify-between items-center p-2">
+                    <h1 class="md:text-[30px] text-md font-bold">03 <span>Implementation</span></h1>
+                    <button id = "btn2" class="w-10"><img src="assets/icons/plus_icon.svg" id="plus2" alt=""></button>
+                </div>
+                <div class="py-4 hidden content2">
+                    <hr class="p-2 border-black">
+                    <p>
+                        During the initial consultation, we will discuss your business goals and objectives, target audience, 
+                        and current marketing efforts. This will allow us to understand your needs and tailor our services to 
+                        best fit your requirements.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="px-8 bg-[#F3F3F3] rounded-[2em] shadow-lg p-5 border-b-black border-b-4 border border-black color3">
+                <div class="flex justify-between items-center p-2">
+                    <h1 class="md:text-[30px] text-md font-bold">04 <span>Monitoring and Optimization</span></h1>
+                    <button id = "btn3" class="w-10"><img src="assets/icons/plus_icon.svg" id="plus3" alt=""></button>
+                </div>
+                <div class="py-4 hidden content3">
+                    <hr class="p-2 border-black">
+                    <p>
+                        During the initial consultation, we will discuss your business goals and objectives, target audience, 
+                        and current marketing efforts. This will allow us to understand your needs and tailor our services to 
+                        best fit your requirements.
+                    </p>
+                </div>
+            </div> 
+    
+            <div class="px-8 bg-[#F3F3F3] rounded-[2em] shadow-lg p-5 border-b-black border-b-4 border border-black color4">
+                <div class="flex justify-between items-center p-2">
+                    <h1 class="md:text-[30px] text-md font-bold">05 <span>Reporting and Communication</span></h1>
+                    <button id = "btn4" class="w-10"><img src="assets/icons/plus_icon.svg" id="plus4" alt=""></button>
+                </div>
+                <div class="py-4 hidden content4">
+                    <hr class="p-2 border-black">
+                    <p>
+                        During the initial consultation, we will discuss your business goals and objectives, target audience, 
+                        and current marketing efforts. This will allow us to understand your needs and tailor our services to 
+                        best fit your requirements.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="px-8 bg-[#F3F3F3] rounded-[2em] shadow-lg p-5 border-b-black border-b-4 border border-black color5">
+                <div class="flex justify-between items-center p-2">
+                    <h1 class="md:text-[30px] text-md font-bold">06 <span>Continual Improvement</span></h1>
+                    <button id = "btn5" class="w-10"><img src="assets/icons/plus_icon.svg" id="plus5" alt=""></button>
+                </div>
+                <div class="py-4 hidden content5">
+                    <hr class="p-2 border-black">
+                    <p>
+                        During the initial consultation, we will discuss your business goals and objectives, target audience, 
+                        and current marketing efforts. This will allow us to understand your needs and tailor our services to 
+                        best fit your requirements.
+                    </p>
+                </div>
+            </div>    
+        </div>
+   </section>
+
+
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+   <script>
+        $('.autoplay').slick
+        ({    
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>
