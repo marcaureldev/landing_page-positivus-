@@ -1,3 +1,19 @@
+// Responsive Navbar configuration
+const burger_btn = document.querySelector(".burger_btn");
+const nav_content = document.querySelector(".nav_content");
+
+burger_btn.addEventListener('click', function()
+{
+    if(nav_content.classList.contains('hidden'))
+    {
+        nav_content.classList.remove('hidden')
+    }
+    else
+    {
+        nav_content.classList.add('hidden')
+    }
+})
+
 function AfficheContenu(btn, color, plus, content, closeBtn)
 {
     btn.addEventListener('click', function() {
